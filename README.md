@@ -82,7 +82,7 @@ npm run test
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/Serhazor/typescript_logger/blob/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/Serhazor/typescript_logger/blob/main/Logger/docs/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
 
