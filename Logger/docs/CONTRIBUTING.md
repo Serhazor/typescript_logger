@@ -1,5 +1,3 @@
-Sure! Here's a complete `CONTRIBUTING.md` document tailored for the TypeScript Logger project:
-
 ```markdown
 # Contributing to TypeScript Logger
 
@@ -97,5 +95,3 @@ Thank you for your interest in contributing to the TypeScript Logger project! Yo
 5. **Code of Conduct**: Links to the project's Code of Conduct to ensure a positive contribution environment.
 6. **License**: Clarifies that contributions are licensed under the ISC License.
 7. **Acknowledgements**: Thanks contributors for their efforts.
-
-This `CONTRIBUTING.md` file should help streamline the contribution process and set clear expectations for contributors.
