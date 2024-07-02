@@ -27,7 +27,7 @@ npm --version  // Ensure npm is installed
 A step by step series of examples that tell you how to get a development env running:
 
 1. Clone the repository:
-
+npm
 ```bash
 git clone https://github.com/Serhazor/typescript_logger.git
 ```

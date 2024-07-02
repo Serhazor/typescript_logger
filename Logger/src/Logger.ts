@@ -21,23 +21,22 @@ export class Logger {
     private log(message: any, level: LogLevel): void {
         if (level >= this.logLevel) {
             const formattedMessage = typeof message === 'object' ? JSON.stringify(message, this.replacerFunction()) : message;
-            console.log(`${LogLevel[level]}: ${formattedMessage}`); 
+            console.log(`${LogLevel[level]}: ${formattedMessage}`);
         }
     }
-    
+
     private replacerFunction() {
         const seen = new WeakSet();
         return (key, value) => {
             if (typeof value === "object" && value !== null) {
                 if (seen.has(value)) {
-                    return "[Circular]"; 
+                    return "[Circular]";
                 }
                 seen.add(value);
             }
             return value;
         };
     }
-    
 
     public logVerbose(message: any): void { this.log(message, LogLevel.VERBOSE); }
     public logInfo(message: any): void { this.log(message, LogLevel.INFO); }
