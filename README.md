@@ -1,4 +1,4 @@
-```markdown
+
 # TypeScript Logger
 
 A simple yet powerful logging library for TypeScript applications, providing clear and structured logging capabilities to aid in development and production monitoring.
