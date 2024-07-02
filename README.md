@@ -1,5 +1,3 @@
-Here's the updated README text that matches everything we have in the application:
-
 ```markdown
 # TypeScript Logger
 
