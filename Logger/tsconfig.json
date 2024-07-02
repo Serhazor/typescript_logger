@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node", // Use Node.js-style module resolution
+    "target": "es2015",         // Compile down to ES2015 for broader compatibility
+    "module": "commonjs",       // Use CommonJS modules, suitable for Node.js applications
+    "esModuleInterop": true,    // Enables interoperability between CommonJS and ES Modules
+    "outDir": "./dist",         // Output the compiled files to the 'dist' directory
+    "baseUrl": ".",             // Set the base directory for relative paths in the project
+    "paths": {
+      "*": ["node_modules/*", "src/*"] // Custom paths for modules
+    }
+  },
+  "include": ["src/**/*", "tests/**/*"] // Include all files within 'src' and 'tests' directories
+}
