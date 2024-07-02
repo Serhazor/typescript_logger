@@ -1,4 +1,4 @@
-```markdown
+
 # Contributing to TypeScript Logger
 
 We welcome contributions to the TypeScript Logger project. Whether you're fixing bugs, adding new features, or improving documentation, your help is appreciated.
